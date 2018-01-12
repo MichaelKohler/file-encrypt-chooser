@@ -1,0 +1,27 @@
+{
+  "name": "file-encrypt-chooser",
+  "version": "1.0.0",
+  "description": "Lets you choose which files to encrypt from a predefined folder and encrypts them with the public key",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelKohler/file-encrypt-chooser.git"
+  },
+  "author": "Michael Kohler <me@michaelkohler.info>",
+  "license": "MPL",
+  "bugs": {
+    "url": "https://github.com/MichaelKohler/file-encrypt-chooser/issues"
+  },
+  "homepage": "https://github.com/MichaelKohler/file-encrypt-chooser#readme",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "meow": "^4.0.0"
+  },
+  "bin": {
+    "file-encrypt-chooser": "bin/cli.js"
+  }
+}
